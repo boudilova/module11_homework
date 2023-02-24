@@ -1,0 +1,25 @@
+{
+  "name": "scillfactory",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    }
+  ,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/boudilova/module11_homework.git"
+  },
+  "keywords": [
+    "test",
+    "skillfactory",
+    "homework"
+  ],
+  "author": "budilova anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boudilova/module11_homework/issues"
+  },
+  "homepage": "https://github.com/boudilova/module11_homework#readme"
+}

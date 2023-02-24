@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/bin/node /opt/homebrew/Cellar/yarn/1.22.19/libexec/bin/yarn.js test
+
+PATH: 
+  /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/anna/projects/skillfactory/module11_homework/package.json: Unexpected token { in JSON at position 100
+      at JSON.parse (<anonymous>)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /opt/homebrew/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "scillfactory",
+    "version": "1.0.0",
+    "description": "study",
+    "main": "index.js",
+    {
+      "scripts": {
+        "test": "jest"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/boudilova/module11_homework.git"
+    },
+    "keywords": [
+      "test",
+      "skillfactory",
+      "homework"
+    ],
+    "author": "budilova anna",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/boudilova/module11_homework/issues"
+    },
+    "homepage": "https://github.com/boudilova/module11_homework#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
